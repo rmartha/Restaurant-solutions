@@ -1,0 +1,258 @@
+/* Color Pallette
+_________________________________
+Orange - #F46036
+light blue - #5B85AA
+black
+dark blue- #414770
+violet - #372248
+grey - gainsboro
+
+
+
+/* Global styles
+_________________________________*/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+        background-color:white; 
+        font-family: 'PT Sans', sans-serif;
+    margin:0; /*removes the whitespace*/
+}
+
+p{
+    line-height: 1.5;
+}
+
+nav{   
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4{
+    text-transform:uppercase;
+    text-align: center;
+      color:#F46036;
+ 
+}
+
+ul{
+
+    list-style: none;
+    
+}
+
+
+.content-wrap{
+    max-width:85%;
+    margin: 0 auto; /*removes the whitespace*/
+    padding: 1px; /*removes the whitespace*/
+}
+/* Header and Footer styles
+_________________________________*/
+
+header{
+    background-color: black;
+    color: white;
+    text-transform:uppercase;
+    position: fixed;
+   width: 100%;
+}
+
+.main-nav-col1 a{
+    width: 15%;
+/*    float:left;*/
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+.OrderOnlineButton{
+    position: relative; 
+    bottom: 400px;
+    right: -300px;
+    font-weight: 800;
+}
+
+.ViewMenuButton{
+     position: relative; 
+        bottom: 370px;
+        right: -305px;
+    font-weight: 800;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-transform:uppercase;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+
+
+footer a:visited, header a:visited{
+    color: white;
+}
+
+footer a:link, header a:link{
+    color: white;
+}
+
+footer a:focus , header a:focus {
+    outline:1px solid grey;
+}
+
+footer a:hover , header a:hover {
+    color:grey;
+}
+
+.footer-col-left p{
+    font-family: 'Sacramento', cursive;
+    font-size: 250%;
+    color:#F46036;
+    text-align: center;
+    font-weight: 800;
+    
+}
+.footer-col-left{
+    width: 33%;
+    float:left;
+   border-radius: 15px;
+     display: block;
+    margin: 15px auto 0px;
+}
+.footer-col-middle{
+    width: 40%;
+  float:left;
+    padding: 50px;
+}
+
+
+.footer-col-right{
+    width: 25%;
+  float:left;
+      padding: 50px;
+}
+
+
+/*Customer reviews
+_________________________________*/
+
+.custreviews{
+    clear: both;
+}
+
+.customerreviews img{
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto 0px;
+  
+}
+
+
+.customerreviews p{
+    margin: 5px 35px 25px;
+  
+}
+.cust-column
+{
+    width: 30%;
+    margin: 0 25px 40px 0;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 25px;
+/*    float: left;*/
+    display: inline-block;
+  
+  
+}
+/* Buttonstyles
+_________________________________*/
+
+
+.ViewMenuButton a, .OrderOnlineButton a
+{
+    color: #171123;
+    background-color: transparent;
+    outline: medium solid #F46036;
+    padding: 10px 10px 10px 10px;
+    font-style: italic;
+    text-transform:uppercase;
+    font-size: 24px;
+}
+
+
+
+.ViewMenuButton a:focus, .OrderOnlineButton a:focus, .ViewMenuButton a:hover, .OrderOnlineButton a:hover{
+    
+    background-color: #F46036;
+   color:white;
+}
+
+
+
+/*Images Buttonstyles
+_________________________________*/
+
+.MenuImages{
+      background-color:white !important;
+}
+
+.MenuImages img{
+  max-width: 750px;
+    max-height: 650px;
+    display: block;
+    padding: 10px 0;
+    margin: auto auto;
+}
+
+
+
+/*restaurant info section
+_________________________________*/
+
+.RestaurantInfo{
+    clear: both;
+    overflow: hidden;
+}
+
+.col-img-left p{
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    color:#F46036;
+    text-align: center;
+    font-weight: 800;
+    padding: 0 5px 0px 5px;
+    
+}
+
+.col-img-left{
+    max-width:40%;
+   float:left;
+    margin: 5px;
+/*    display: inline-block;*/
+}
+
+.col-img-right{
+    max-width: 55%;
+    float:left;
+/*     display: inline-block;*/
+}
+
+
+.col-img-right p:first-of-type{
+    margin:0;
+}
