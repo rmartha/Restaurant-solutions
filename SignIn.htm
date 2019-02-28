@@ -2,40 +2,86 @@
 <html lang="en"><html>
 <head>
 <meta charset="utf-8">   
-<title>Sign In</title>  
-    
+<title>Sign In</title>     
     
 <link rel="stylesheet" href="css/style.css">
 </head>
     
 <body>
+    
+<header class="MainNav"> 
+    <div class="navcontainer">
+<nav>
+    <div class="main-nav-col1">
+    <a href="index.htm">My Restaurant</a>
+    <a href="Menu.htm">Menu</a>
+    <a href="OnlineOrder.htm">Order Online</a>
+    <a href="TrackOrder.htm">Track Order</a>
+    <a href="Contact.htm">Contact</a>
+    <a href="SignIn.htm">Sign In/Sign Up</a>
+    </div> 
+ </nav> 
+    </div>
+     </header>
 
-    <input type="text" value="User Name">
     <br>
-    <input type="password" value ="Password">
     <br>
-    <input type="button" value ="Login">
     <br>
+<div class="content-wrap account-wrap">
+
+
+<div class="Login">
+    <div class= "col-1-account">
+    <span>Name:</span>
+          <span>Password:</span>
+   
+    <br>
+    </div>
+    <div class="col-2-account">
+   <input type="text" id="txtusername" Name="User Name">
+    <input type="password" Name ="Password" id="txtpassword" >
+    <br>
+  
+    <input type="button" Name ="Login" value="Login" id="btnlogin" onclick="validate()">
+        </div>
+<br>
+    </div>
     
     <p> Do not have an account, create an account</p>
-    <input type="button" value ="Sign Up">
-    
-     <input type="text" value="First Name">
-    <br>
-    <input type="text" value ="Last Name">
-    <br>
-     <input type="radio" value ="Male">
-    <br>
-     <input type="radio" value ="Female">
-    <br>
-    <input type="text" value="Email">
-    <br>
-    <input type="password" value ="Password">
-    <br>
-     <input type="password" value ="Confirm your password">
-    <br>
-    <input type="button" value ="Sign Up">
+    <input type="button" value ="Create an Account" onclick="showaccount()">
     <br>
     
+    <div class="signup" id="sign">
+       <span>First Name:</span>
+     <input type="text" Name="First Name" id="tx    xtfnmae">
+    <br>
+        <span>Last Name:</span>
+    <input type="text" Name ="Last Name">
+    <br>
+        <span>Gender: </span>
+     <input type="radio" Name ="Male"> <span>Male</span>
+
+     <input type="radio" Name ="Female"><span>Female</span>
+    <br>
+         <span>Email: </span>
+    <input type="text" Name="Email">
+    <br>
+         <span>Password: </span>
+    <input type="password" Name ="Password">
+    <br>
+        
+         <span>Confirm Password: </span>
+     <input type="password" Name ="Confirm your password">
+    <br>
+    <input type="button" Name ="Sign Up" value="Sign Up">
+    <br>
+    </div>
+</div>
     </body>
+ 
+    <script src="script.js">   
+    
+    </script>
+    
+    
     </html>

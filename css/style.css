@@ -51,12 +51,43 @@ ul{
     
 }
 
+.signup{
+    margin: 10px;
+    
+}
 
+input{
+    
+    margin: 10px;
+}
+
+span{
+    margin:10px;
+    display: inline-block;
+}
 .content-wrap{
     max-width:85%;
     margin: 0 auto; /*removes the whitespace*/
     padding: 1px; /*removes the whitespace*/
 }
+
+.content-wrap.account-wrap{
+    max-width:85%;
+    margin: 30px; auto; /*removes the whitespace*/
+    padding: 10px; /*removes the whitespace*/
+}
+
+.Login{
+    
+    width: 50%;
+/*    margin-top:50px;*/
+    margin: 50px auto;
+      display: flex;
+    grid-template-columns: 1fr 3fr;
+
+}
+
+
 /* Header and Footer styles
 _________________________________*/
 
